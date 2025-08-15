@@ -17,5 +17,6 @@ Click widget to reset on injection day.
 
 I want to make my own widget and and popup config / reset UI. 
 
+I would also like to make the two scripts one so that i can allow: "estro-cycle --reset" to function as the reset 
 
 
