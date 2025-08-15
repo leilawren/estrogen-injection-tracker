@@ -18,7 +18,7 @@ INJECT_DATE=$(cat "$INJECT_DATE")
 # get today's date
 CURRENT_DATE=$(date +%Y-%m-%d)
 
-# subtract injection date from current date to get the seconds past since last injection
+# subtract injection date (in seconds) from current date (in seconds) to get the seconds past since last injection
 # divde the difference by seconds in a day to get the days past
 DAYS_PASSED=$(( ( $(date -d "$CURRENT_DATE" +%s) - $(date -d "$INJECT_DATE" +%s) ) / 86400 ))
 
