@@ -2,8 +2,8 @@
 A couple short, slapped-together scripts that let me keep track of my injection cycle.
 
 # Dependencies
-
-KDE Plasma "command-output" widget or some other widget like eww maybe.
+- KDE Plasma "command-output" widget or some other widget setup like eww or even waybar.
+- kdialog
 
 # How to use it
 
