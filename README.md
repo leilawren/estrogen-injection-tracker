@@ -13,3 +13,9 @@ Use "command output" widget configuration to run esto-cycle.sh periodically. Set
 
 Click widget to reset on injection day.
 
+# What's next? 
+
+I want to make my own widget and and popup config / reset UI. 
+
+
+
