@@ -9,7 +9,7 @@ kdialog --warningyesnocancel "Are you sure you want to reset your cycle?"
 if [ $? = 0 ]; then
     echo "reseting injection cycle..."
     # delete the previous estrogen cycle date log
-    rm ~/.estrogen-cycle-dummy
+    rm ~/.estrogen-cycle
     # run estro-cycle.sh to start new cycle
     estro-cycle.sh
     echo "Injection cycle reset"
